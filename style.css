@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #F7F7F7;
+}
+
+.key_feature_appilix{
+    width: 100%;
+}
+
+.key_feature_appilix .container{
+    width: 100%;
+    max-width: 1144px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    
+}
+
+/* Title Style */
+.key_feature_appilix .container .title{
+    max-width: 572px;
+    margin: 120px auto 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.key_feature_appilix .container .title h2{
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #051B18;
+}
+
+.key_feature_appilix .container .title p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #374946;
+}
+
+
+/* Key Feature Style */
+.key_feature_appilix .container .key_feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.key_feature_appilix .container .key_feature .feature_card{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 32px;
+    background-color: white;
+    border-radius: 20px;
+    border-width: 2px 2px 0 2px;
+    border-style: solid;
+    border-color: #F7F7F7;
+    box-shadow: 0 0 0 1px #FFFFFF;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo{
+    min-height: 64px;
+    min-width: 64px;
+    border-radius: 12px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 0 0 1px #FCF3EF;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_1{
+    background: url(key_feature_img/logo_1.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_2{
+    background: url(key_feature_img/logo_2.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_3{
+    background: url(key_feature_img/logo_3.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_4{
+    background: url(key_feature_img/logo_4.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_5{
+    background: url(key_feature_img/logo_5.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_6{
+    background: url(key_feature_img/logo_6.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_7{
+    background: url(key_feature_img/logo_7.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_8{
+    background: url(key_feature_img/logo_8.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_9{
+    background: url(key_feature_img/logo_9.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_10{
+    background: url(key_feature_img/logo_10.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_11{
+    background: url(key_feature_img/logo_11.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_12{
+    background: url(key_feature_img/logo_12.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_13{
+    background: url(key_feature_img/logo_13.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_14{
+    background: url(key_feature_img/logo_14.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_15{
+    background: url(key_feature_img/logo_15.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_16{
+    background: url(key_feature_img/logo_16.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_17{
+    background: url(key_feature_img/logo_17.svg) no-repeat center;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .logo_18{
+    background: url(key_feature_img/logo_18.svg) no-repeat center;
+}
+
+
+/* Logo and button color */
+.orange{
+    background-color: #FAE8DE !important;
+    box-shadow: 0 0 0 1px #FAE8DE ;
+}
+
+.green_primary{
+    background-color: #D2E8E4 !important;
+    box-shadow: 0 0 0 1px #D2E8E4 ;
+}
+
+.error{
+    background-color: #F2E9EB !important;
+    box-shadow: 0 0 0 1px #F2E9EB ;
+}
+
+.warning{
+    background-color: #FBF8E9 !important;
+    box-shadow: 0 0 0 1px #FBF8E9 ;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_top .feature_name{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    color: 051B18;   
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_bottom .short_details{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: 374946;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_bottom .start_now{
+    max-width: 156px;
+    background-color: #FAE8DE;
+    padding: 8px 20px;
+    border-radius: 100px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 0 0 1px #FAE8DE;
+    cursor: pointer;
+    background: url(key_feature_img/arrow-right-02.svg) no-repeat;
+    background-position: right 20px center;
+    display: flex;
+    justify-content: start;
+}
+
+.key_feature_appilix .container .key_feature .feature_card .card_bottom .start_now a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #051B18;
+    text-align: left;
+}
+
+
+/* Bottom Card style */
+.key_feature_appilix .container .bottom_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    margin-bottom: 80px;
+    width: 100%;
+    padding: 60px;
+    border-radius: 20px;
+    border-width: 2px 2px 0 2px;
+    border-style: solid;
+    border-color: #fff;
+    box-shadow: 0 0 0 1px #072B28;
+    background-image: 
+   url("appilix_img/Pattern.svg"),
+   linear-gradient(#072B29, #0E1D1C)
+    ;
+
+    background-repeat: no-repeat;
+    background-size: cover, contain;
+    background-position: center; 
+}
+
+.key_feature_appilix .container .bottom_card .card_element{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    max-width: 473px;
+    height: 280px;
+    align-self: center;
+    color: white;
+}
+
+.key_feature_appilix .container .bottom_card .card_image{
+    max-width: 400px;
+    height: 320px;
+
+}
+
+.key_feature_appilix .container .bottom_card .card_element .card_description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.key_feature_appilix .container .bottom_card .card_element .card_description .card_title{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    
+}
+
+.key_feature_appilix .container .bottom_card .card_element .card_description .card_title p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #CCD2CC;
+    
+}
+
+.key_feature_appilix .container .bottom_card .card_element .card_description .card_title h3{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    color: #FDFEF6;
+    
+}
+
+.key_feature_appilix .container .bottom_card .card_element .card_description .card_short_details{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #CCD2CC;
+}
+
+.key_feature_appilix .container .bottom_card .card_element form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.key_feature_appilix .container .bottom_card .card_element .input_url{
+    position: relative;
+    flex: 1;
+}
+
+.key_feature_appilix .container .bottom_card .card_element .input_url input{
+    background: transparent url(key_feature_img/global.svg) no-repeat;
+    background-size: 20px;
+    background-position-y: center;
+    background-position-x: 16px;
+    max-width: 290px;
+    width: 100%;
+    height: 44px;
+    padding: 8px 16px 8px 44px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    outline: none;
+    border-radius: 100px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FDFEF6;
+    line-height: 28px;
+}
+
+.key_feature_appilix .container .bottom_card .card_element .input_url .placeholder{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 45px;
+    top: 7px;
+    pointer-events: none;
+    transform-origin: 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FDFEF6;
+    line-height: 28px;
+    overflow: hidden;
+    white-space: nowarp;
+    white-space: nowrap;
+}
+
+#website_input:focus + .placeholder,
+#website_input:valid + .placeholder {
+    opacity: 0;
+}
+
+.key_feature_appilix .container .bottom_card .card_element form button{
+    width: 100%;
+    max-width: 171px;
+    padding: 8px 20px;
+    background-color: #1E8A7A;
+    border-radius: 100px;
+    border-width: 1px 1px 0 1px;
+    border-style: solid;
+    border-color: #0C3731;
+    box-shadow: 0 0 0 1px rgba(30, 138, 122, 0.5);
+    color: #FDFEF6;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+
+/* Small Screen */
+@media screen and (max-width: 576px){
+    .key_feature_appilix .container{
+    width: 100%;
+    max-width: 92%;
+    gap: 28px;
+    }
+
+    /* Title small screen */
+    .key_feature_appilix .container .title{
+        max-width: 90%;  
+        margin-top: 40px;
+    }
+
+    .key_feature_appilix .container .title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* Key Feature small screen style */
+    .key_feature_appilix .container .key_feature{
+        grid-template-columns: 1fr;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card{
+        gap: 28px;
+        padding: 24px;
+        border-radius: 16px;
+        border: none;
+        box-shadow: none;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 24px;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_top .logo{
+        min-height: 48px;
+        min-width: 48px;
+        border-radius: 8px;
+    }
+    
+    .key_feature_appilix .container .key_feature .feature_card .card_top .feature_name{
+        font-size: 24px;
+        line-height: 32px;  
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_bottom .short_details{
+        font-size: 16px;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_bottom .start_now a{
+        font-size: 16px;
+    }
+
+    /* Bottom small screen */
+    .key_feature_appilix .container .bottom_card{
+        display: inline-block;
+        margin-bottom: 40px;
+        padding: 24px;
+        border: none;
+        box-shadow: none;
+        background: linear-gradient(#072B29, #0E1D1C);       
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element{
+    gap: 28px;
+    width: 100%;
+    height: auto;
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element .card_description .card_title h3{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .key_feature_appilix .container .bottom_card .card_element .card_description .card_short_details{
+        font-size: 16px;
+    }
+    .key_feature_appilix .container .bottom_card .card_element form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element .input_url input, 
+    .key_feature_appilix .container .bottom_card .card_element form button{
+        max-width: 100%;
+    }
+
+    .key_feature_appilix .container .bottom_card .card_image{
+        display: none;
+    }   
+}
+
+/* Medium Screen */
+@media screen and (max-width: 768px){
+    .key_feature_appilix .container{
+    width: 100%;
+    max-width: 92%;
+    gap: 28px;
+    }
+
+    /* Title medium screen style  */
+    .key_feature_appilix .container .title{
+        max-width: 90%;  
+        margin-top: 60px;
+    }
+
+    .key_feature_appilix .container .title h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* Key Feature small screen style */
+    .key_feature_appilix .container .key_feature{
+        grid-template-columns: 1fr;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 28px;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_top .logo{
+        min-height: 100px;
+        min-width: 60px;
+        border-radius: 8px;
+    }
+
+
+    /* Bottom Card medium screen style */
+    .key_feature_appilix .container .bottom_card{
+        max-width: 100%;
+        display: inline-block;
+        margin-bottom: 30px;
+        padding: 24px;
+        border: none;
+        box-shadow: none;
+        background: linear-gradient(#072B29, #0E1D1C);       
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element{
+    gap: 28px;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element .card_description .card_title h3{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    
+    .key_feature_appilix .container .bottom_card .card_element .card_description .card_short_details{
+        font-size: 16px;
+    }
+    .key_feature_appilix .container .bottom_card .card_element form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element .input_url input, .key_feature_appilix .container .bottom_card .card_element form button{
+        max-width: 100%;
+    }
+
+.key_feature_appilix .container .bottom_card .card_image{
+    display: none;
+
+}
+    
+}
+
+@media screen and (max-width: 992px){
+    
+    .key_feature_appilix .container{
+    width: 100%;
+    max-width: 92%;
+    }
+
+    .key_feature_appilix .container .title{
+        margin: 80px auto 0 auto;
+        
+    }
+
+    
+    /* Key Feature large screen style */
+
+    .key_feature_appilix .container .key_feature .feature_card{
+        gap: 28px;
+        padding: 24px;
+        border-radius: 16px;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 24px;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_top .logo{
+        min-height: 48px;
+        min-width: 48px;
+        border-radius: 8px;
+    }
+    
+    .key_feature_appilix .container .key_feature .feature_card .card_top .feature_name{
+        font-size: 24px;
+        line-height: 32px;  
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_bottom .short_details{
+        font-size: 16px;
+    }
+
+    .key_feature_appilix .container .key_feature .feature_card .card_bottom .start_now a{
+        font-size: 16px;
+    }
+
+
+
+    /* Bottom Card Style */
+    .key_feature_appilix .container .bottom_card{
+        gap: 12px;
+        margin-bottom: 40px;
+    }
+
+    .key_feature_appilix .container .bottom_card .card_element{
+        gap: 28px;
+        max-width: 100%;
+        height: auto;
+        }
+
+    .key_feature_appilix .container .bottom_card .card_element form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    }
+    
+    .key_feature_appilix .container .bottom_card .card_element .input_url input{
+    max-width: 100%;
+    }
+    .key_feature_appilix .container .bottom_card .card_element form button{
+    max-width: 100%;
+    }
+
+}
+
+
