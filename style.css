@@ -163,22 +163,22 @@ body{
 /* Logo and button color */
 .orange{
     background-color: #FAE8DE !important;
-    box-shadow: 0 0 0 1px #FAE8DE ;
+    box-shadow: 0 0 0 1px #FAE8DE !important;
 }
 
 .green_primary{
     background-color: #D2E8E4 !important;
-    box-shadow: 0 0 0 1px #D2E8E4 ;
+    box-shadow: 0 0 0 1px #D2E8E4 !important;
 }
 
 .error{
     background-color: #F2E9EB !important;
-    box-shadow: 0 0 0 1px #F2E9EB ;
+    box-shadow: 0 0 0 1px #F2E9EB !important;
 }
 
 .warning{
     background-color: #FBF8E9 !important;
-    box-shadow: 0 0 0 1px #FBF8E9 ;
+    box-shadow: 0 0 0 1px #FBF8E9 !important;
 }
 
 .key_feature_appilix .container .key_feature .feature_card .card_top .feature_name{
